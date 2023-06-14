@@ -1,0 +1,21 @@
+[package]
+name = "simd-blit"
+version = "1.0.0"
+edition = "2021"
+authors = [ "Nathan ROYER <nathan.royer.pro@gmail.com>" ]
+description = "Alpha Compositing & SSAA, optionally using SIMD"
+license = "MIT"
+categories = [ "no-std" ]
+keywords = [ "no_std" ]
+repository = "https://github.com/NathanRoyer/simd-blit"
+
+[lib]
+path = "lib.rs"
+
+[features]
+default = []
+simd = []
+
+[dependencies]
+log = "0.4.17"
+rgb = "0.8.36"
