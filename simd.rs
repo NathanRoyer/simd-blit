@@ -2,6 +2,7 @@ use super::PixelArray;
 
 use core::simd::{
     SimdPartialOrd,
+    SimdUint,
     simd_swizzle,
     usizex8,
     u8x4,
